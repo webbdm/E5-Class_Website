@@ -1,0 +1,137 @@
+.class-photo {
+  min-width: 100vh;
+  height: auto;
+  position: relative; }
+
+.top-nav-wrapper {
+  background: url("https://raw.githubusercontent.com/nss-evening-cohort-05/E5-Class-Website/master/img/Class-Photo.jpg") no-repeat center center;
+  background-size: cover;
+  height: 700px; }
+  .top-nav-wrapper .navbar {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+    justify-content: space-between; }
+    .top-nav-wrapper .navbar .nav-left {
+      align-self: left; }
+    .top-nav-wrapper .navbar .nav-right {
+      align-self: right;
+      padding: 10px 0;
+      flex-direction: row;
+      flex-wrap: wrap;
+      text-align: right;
+      align-items: right; }
+      .top-nav-wrapper .navbar .nav-right a {
+        color: #f0452d;
+        text-decoration: none;
+        margin: 0px 30px;
+        white-space: nowrap; }
+  .top-nav-wrapper .e5-class-header {
+    color: #f0452d;
+    font-size: 1.5rem;
+    white-space: nowrap; }
+
+.top {
+  position: relative;
+  margin: 0 auto;
+  clear: left;
+  height: auto;
+  z-index: 0;
+  text-align: center; }
+  .top h1 {
+    display: inline-block;
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Bungee Inline', cursive;
+    font-size: 55px;
+    color: #f0452d;
+    background-color: #585858;
+    border-radius: 0px 0px 5px 5px;
+    border: 1px solid #f0452d;
+    margin-bottom: 0;
+    padding: 10px; }
+  .top nav {
+    margin: -1px 0 5% 0;
+    text-align: center; }
+    .top nav a {
+      display: inline-block;
+      font-family: 'Bungee Inline', cursive;
+      background-color: #585858;
+      color: black;
+      padding: 10px;
+      margin: 0px -5px; }
+      .top nav a:hover {
+        color: white; }
+      .top nav a:hover, .top nav a:visited, .top nav a:active {
+        text-decoration: none; }
+    .top nav .left-link {
+      border-left: 1px solid #f0452d;
+      border-bottom: 1px solid #f0452d;
+      border-radius: 0px 0px 0px 5px; }
+    .top nav .right-link {
+      border-right: 1px solid #f0452d;
+      border-bottom: 1px solid #f0452d;
+      border-radius: 0px 0px 5px 0px; }
+
+.class-bio {
+  background-image: -webkit-linear-gradient(left, #f0452d 0%, #f26c2d 100%);
+  background-image: linear-gradient(to right, #f0452d 0%, #f26c2d 100%);
+  color: white; }
+
+.technologies {
+  text-align: right;
+  padding: 10px; }
+
+.tech-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 50px; }
+  .tech-icons img {
+    height: 100px;
+    width: 100px;
+    margin: 10px; }
+  .tech-icons .entity-logo {
+    height: 100px;
+    width: auto; }
+
+.student-wrapper {
+  padding: 10px; }
+
+#studentBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap; }
+
+.student-card {
+  width: 300px;
+  margin: 5px;
+  flex-grow: 1; }
+
+.icon-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center; }
+  .icon-links a:hover {
+    text-decoration: none; }
+  .icon-links img {
+    height: 50px;
+    width: 50px; }
+  .icon-links .linkedin-logo {
+    height: 45px;
+    width: 45px; }
+
+@media screen and (max-width: 1160px) {
+  .top h1 {
+    font-size: 35px;
+    padding: 5px; }
+  .top nav a {
+    font-size: 10px; } }
